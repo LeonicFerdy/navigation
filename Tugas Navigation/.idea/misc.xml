@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/ADNROID/tugas 2/android-kotlin-fundamentals-starter-apps-master/AndroidTrivia-Starter/app/src/main/res/layout/activity_main.xml" value="0.13020833333333334" />
+        <entry key="..\:/ADNROID/tugas 2/android-kotlin-fundamentals-starter-apps-master/AndroidTrivia-Starter/app/src/main/res/layout/fragment_title.xml" value="0.13020833333333334" />
+        <entry key="..\:/Github/Tugas 2/AndroidTrivia-Starter/app/src/main/res/layout/activity_main.xml" value="0.128" />
+        <entry key="..\:/Github/Tugas 2/AndroidTrivia-Starter/app/src/main/res/layout/fragment_game_won.xml" value="0.1" />
+        <entry key="..\:/Github/Tugas 2/AndroidTrivia-Starter/app/src/main/res/layout/fragment_rules.xml" value="0.20471014492753623" />
+        <entry key="..\:/Github/Tugas 2/AndroidTrivia-Starter/app/src/main/res/layout/fragment_title.xml" value="0.2" />
+        <entry key="..\:/Github/Tugas 2/AndroidTrivia-Starter/app/src/main/res/menu/navdrawer_menu.xml" value="0.25052083333333336" />
+        <entry key="..\:/Github/Tugas 2/AndroidTrivia-Starter/app/src/main/res/menu/options_menu.xml" value="0.4" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
