@@ -79,6 +79,7 @@ class GameFragment : Fragment() {
 
         // Set the onClickListener for the submitButton
         binding.submitButton.setOnClickListener @Suppress("UNUSED_ANONYMOUS_PARAMETER")
+
         { view: View ->
             val checkedId = binding.questionRadioGroup.checkedRadioButtonId
             // Do nothing if nothing is checked (id == -1)
@@ -88,6 +89,7 @@ class GameFragment : Fragment() {
                     R.id.secondAnswerRadioButton -> answerIndex = 1
                     R.id.thirdAnswerRadioButton -> answerIndex = 2
                     R.id.fourthAnswerRadioButton -> answerIndex = 3
+
                 }
                 // The first answer in the original question is always the correct one, so if our
                 // answer matches, we have the correct answer.
@@ -100,16 +102,20 @@ class GameFragment : Fragment() {
                         binding.invalidateAll()
                     } else {
                         // We've won!  Navigate to the gameWonFragment.
-                        view.findNavController().
-                            navigate(R.id.action_gameFragment_to_gameWonFragment)
+                        view.findNavController()
+                            .navigate(GameFragmentDirections.actionGameFragmentToGameWonFragment(numQuestions, questionIndex))
                     }
+
                 } else {
                     // Game over! A wrong answer sends us to the gameOverFragment.
-                    view.findNavController().
-                        navigate(R.id.action_gameFragment_to_gameOverFragment)
+                    view.findNavController()
+                        .navigate(GameFragmentDirections.actionGameFragmentToGameOverFragment())
                 }
+
+
             }
         }
+
         return binding.root
     }
 
